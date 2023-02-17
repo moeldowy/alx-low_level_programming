@@ -1,18 +1,22 @@
 #include <stdio.h>
-
 /**
- * main - main function
- * Description:printing alphabets in lowercase
- * Return: Return
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch, CH;
+	char alpha;
+	char bet;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (CH = 'A'; CH <= 'Z'; CH++)
-		putchar(CH);
-		putchar('\n');
+	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+	{
+		putchar(alpha);
+	}
+	for (bet = 'A' ; bet <= 'Z' ; bet++)
+	{
+		putchar(bet);
+	}
+	putchar('\n');
 	return (0);
 }
